@@ -1,0 +1,66 @@
+body {
+  background-color: rgba(0, 0, 0, 50);
+}
+
+#canvas {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  top: 10px;
+  left: 0px;
+  z-index: 1;
+  border: 0.1px solid rgb(0, 255, 0);
+}
+
+#bottone-feel {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  background-color: #000;
+  color: rgb(255, 255, 255);
+  border: 0.1px solid rgb(0, 255, 0);
+  padding: 10px;
+  font-size: 12px;
+  font-family: "ELEKTRA";
+}
+
+a {
+  text-decoration: none;
+}
+
+#text {
+  /*---------- posizione -----------*/
+
+  margin-top: 20px;
+  position: absolute;
+  top: 13%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 15px;
+
+  /*--------------------------------*/
+
+  font-family: "ELEKTRA";
+  font-weight: 500;
+  font-size: 2vw;
+  display: flex;
+  justify-content: center;
+  color: aliceblue;
+  background-color: transparent;
+}
+
+#preloader {
+  z-index: 2;
+  position: fixed;
+  background: #000 url(/assets/preloader-2.gif) no-repeat center center;
+  background-size: 20%; /*  scala gif */
+  height: 100vh;
+  width: 100%;
+}
+
+@font-face {
+  font-family: "ELEKTRA";
+  src: url("../font/ELEKTRA_.ttf");
+}
